@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactApp.Web", "ContactApp.Web\ContactApp.Web.csproj", "{763D468E-EC46-43BE-9FC0-BF1F992FFE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApp.Web", "ContactApp.Web\ContactApp.Web.csproj", "{763D468E-EC46-43BE-9FC0-BF1F992FFE18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47CEFC95-2046-470F-B97B-7023DC6EAA10} = {47CEFC95-2046-470F-B97B-7023DC6EAA10}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApp.Core", "ContactApp.Core\ContactApp.Core.csproj", "{B6A90691-80C2-45EE-BB52-8DEBB17705EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApp.DAL", "ContactApp.DAL\ContactApp.DAL.csproj", "{47CEFC95-2046-470F-B97B-7023DC6EAA10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApp.Business", "ContactApp.Business\ContactApp.Business.csproj", "{CFBEC0AC-D25A-48DE-840A-C45E481EC8BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,18 @@ Global
 		{763D468E-EC46-43BE-9FC0-BF1F992FFE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763D468E-EC46-43BE-9FC0-BF1F992FFE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763D468E-EC46-43BE-9FC0-BF1F992FFE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A90691-80C2-45EE-BB52-8DEBB17705EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A90691-80C2-45EE-BB52-8DEBB17705EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A90691-80C2-45EE-BB52-8DEBB17705EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A90691-80C2-45EE-BB52-8DEBB17705EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CEFC95-2046-470F-B97B-7023DC6EAA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CEFC95-2046-470F-B97B-7023DC6EAA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CEFC95-2046-470F-B97B-7023DC6EAA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CEFC95-2046-470F-B97B-7023DC6EAA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBEC0AC-D25A-48DE-840A-C45E481EC8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBEC0AC-D25A-48DE-840A-C45E481EC8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBEC0AC-D25A-48DE-840A-C45E481EC8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBEC0AC-D25A-48DE-840A-C45E481EC8BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
